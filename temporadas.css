@@ -39,3 +39,58 @@ h1 {
     box-shadow: 0 0 15px rgba(106, 0, 255, 0.5);
     transition: 0.3s;
 }
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px rgba(0, 212, 255, 0.8);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #6a00ff;
+}
+
+.card h3 {
+    margin-top: 10px;
+    color: #00d4ff;
+}
+
+.ImagenTemporadas {
+    display: block;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+
+
+/* ===== LISTA EPISODIOS ===== */
+.lista-episodios {
+    padding: 20px;
+}
+
+/* ===== CARD EPISODIO ===== */
+.episodio {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 15px 20px;
+    padding: 12px;
+    border-radius: 12px;
+    border-left: 4px solid #6a00ff;
+    transition: 0.3s;
+}
+
+.episodio:hover {
+    transform: scale(1.02);
+    background: rgba(106, 0, 255, 0.2);
+}
+
+/* IMAGEN EPISODIO */
+.episodio img {
+    width: 130px;
+    height: 85px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 1px solid #00d4ff;
+}
