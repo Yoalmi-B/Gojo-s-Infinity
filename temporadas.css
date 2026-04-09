@@ -1,0 +1,41 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    background: linear-gradient(135deg, #0a0a0a, #1a1a2e);
+    color: #eaeaea;
+}
+/* EFECTO ENERGIA DE FONDO */
+body::before {
+    content: "";
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(106,0,255,0.15), transparent);
+    z-index: -1;
+}
+
+/* ===== TITULOS ===== */
+h1 {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(90deg, #6a00ff, #00d4ff);
+    color: white;
+    text-shadow: 0 0 15px #6a00ff;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    width: 260px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(106, 0, 255, 0.5);
+    transition: 0.3s;
+}
