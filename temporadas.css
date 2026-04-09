@@ -94,3 +94,39 @@ h1 {
     border-radius: 8px;
     border: 1px solid #00d4ff;
 }
+/* TEXTO EPISODIO */
+.episodio-info h3 {
+    margin: 0;
+    color: #00d4ff;
+}
+
+.episodio-info p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* ===== TEMPORADA 3 ===== */
+.info-proximamente {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(106, 0, 255, 0.4);
+    max-width: 700px;
+}
+
+.info-proximamente h2 {
+    color: #00d4ff;
+    margin-bottom: 10px;
+}
+
+.info-proximamente p {
+    font-size: 16px;
+}
+
+/* ===== LINKS ===== */
+a:hover {
+    color: #6a00ff;
+    text-shadow: 0 0 10px #6a00ff;
+}
