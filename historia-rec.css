@@ -1,0 +1,42 @@
+/* Contenido */
+.contenido {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.alerta {
+    background-color: #5a0000;
+    padding: 12px 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Historia */
+.historia h2 {
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    border-bottom: 3px solid #ff4444;
+    padding-bottom: 5px;
+}
+
+.historia p {
+    margin-bottom: 18px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* CONTENIDO */
+.contenido {
+    width: 85%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ALERTA */
+.alerta {
+    background-color: #5a0000;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
