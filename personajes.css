@@ -1,0 +1,49 @@
+.pagina-personajes {
+    display: flex;           
+    flex-wrap: wrap;   
+    gap: 30px;               
+    margin: 30px;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.pagina-personajes div {
+    background-color: rgb(37, 1, 1);
+    border-radius: 10px;
+    padding: 16px;
+    width: calc(20% - 30px);  
+    text-align: justify;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+
+.pagina-personajes div img {
+    width: 250px;      
+    height:250px;  
+    object-fit: cover;  
+    border-radius: 10px;
+}
+
+.pagina-personajes div h3 {
+    margin: 10px 0 5px 0;
+    text-align: center;    
+}
+
+.pagina-personajes div p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: left;     
+    margin: 5px 0;  
+}
+
+.pagina-personajes div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #3c5385;
+}
+.pagina-personajes div p.habilidades {
+    text-align: justify;   
+}
